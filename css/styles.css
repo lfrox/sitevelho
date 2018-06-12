@@ -75,7 +75,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 250px 100px 250px;
+  padding: 20px;
 }
 
 header p {
