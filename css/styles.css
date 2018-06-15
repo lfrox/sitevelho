@@ -101,6 +101,21 @@ footer {
   color: #f1f1f1;
 }
 
+@media only screen and (max-width: 768px){
+  .menu {
+    cursor: pointer;  
+  }
+  
+  .menu.hide li {
+    display: none;
+  }
+  
+  .menu.show li {
+    animation: slidein 3s ease-in 1s infinite reverse both running;
+    display: block;
+  }  
+}
+
 @media screen and (min-width: 768px) {
 
   /*
