@@ -1,3 +1,6 @@
+/*
+GERAL
+*/
 body{
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #f1f1f1;
@@ -13,6 +16,10 @@ h1, h2, h3 {
   color: #f1f1f1;
   margin: 30px 0 50px;
 }
+
+/*
+GALERIA
+*/
 
 .gallery{
   margin: 10px 50px;
@@ -76,6 +83,21 @@ FOOTER
 footer {
   text-align: center;
   color: #f1f1f1;
+}
+
+@media only screen and (max-width: 768px){
+  .menu {
+    cursor: pointer;  
+  }
+  
+  .menu.hide li {
+    display: none;
+  }
+  
+  .menu.show li {
+    animation: slidein 3s ease-in 1s infinite reverse both running;
+    display: block;
+  }  
 }
 
 @media screen and (min-width: 768px) {
