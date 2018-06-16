@@ -183,4 +183,12 @@ footer {
     justify-content: center;
   }
 
+  p {
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    padding: 0px 120px 0px 120px;
+    text-align: center;
+  }
+
 }
