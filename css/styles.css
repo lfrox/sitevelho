@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 p {
   font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-  font-size: larger;
+  font-size: 20px;
   padding: 0px 10px 0px 10px;
   text-align: center;
 }
@@ -95,6 +95,11 @@ nav ul li a {
   color: #4d4d4d;
 }
 
+nav a h1{
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
 /*
 HEADER
 */
@@ -117,6 +122,13 @@ div ul li {
   display: inline;
   flex-direction: column;
   padding: 20px 20px 20px 20px; 
+}
+
+center a {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
 }
 
 /*
@@ -186,8 +198,8 @@ footer {
   p {
     font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: larger;
-    padding: 0px 120px 0px 120px;
+    font-size: 18px;
+    padding: 0px 160px 0px 160px;
     text-align: center;
   }
 
